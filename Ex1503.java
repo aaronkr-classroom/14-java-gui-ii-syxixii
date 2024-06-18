@@ -49,17 +49,17 @@ public class Ex1503 extends JFrame implements ActionListener {
         }
 
         else if (obj == btn2) {
-            btn1.setBackground(Color.CYAN);
+            btn2.setBackground(Color.CYAN);
             JOptionPane.showMessageDialog(this, "JOptionPane 대화상자", "INFORMATION", JOptionPane.INFORMATION_MESSAGE);
         }
 
         else if (obj == btn3) {
-            btn1.setBackground(Color.CYAN);
+            btn3.setBackground(Color.CYAN);
             JOptionPane.showMessageDialog(this, "JOptionPane 대화상자", "WARNING", JOptionPane.WARNING_MESSAGE);
         }
 
         else if (obj == btn4) {
-            btn1.setBackground(Color.CYAN);
+            btn4.setBackground(Color.CYAN);
             JOptionPane.showMessageDialog(this, "JOptionPane 대화상자", "QUESTION", JOptionPane.QUESTION_MESSAGE);
         }
     }
